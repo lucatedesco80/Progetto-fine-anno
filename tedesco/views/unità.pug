@@ -1,0 +1,10 @@
+extends layout
+
+block content
+
+    h1 UNITÀ
+    .container-unita
+        each unita in risultato
+                div.unita
+                    br
+                    h2 #{unita.Unit.toUpperCase()}
